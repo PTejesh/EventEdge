@@ -1,0 +1,21 @@
+{
+  "name": "eventedge-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "axios": "^1.7.2",
+    "recharts": "^2.12.7",
+    "@tanstack/react-query": "^5.45.0",
+    "react-router-dom": "^6.24.0",
+    "lucide-react": "^0.400.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "proxy": "http://backend:8000"
+}
